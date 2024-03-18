@@ -1,0 +1,83 @@
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-details {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.social-details h2 {
+  font-size: 30px;
+}
+.CompanyDetails {
+  padding: 0px 20px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.CompanyDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons a:hover {
+  cursor: pointer;
+  color: #c1a957;
+  transition: 0.345s;
+  -webkit-transition: 0.345s;
+  -moz-transition: 0.345s;
+  -ms-transition: 0.345s;
+  -o-transition: 0.345s;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CompanyDetails img {
+  margin-top: 10px;
+}
+.WorkingDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.copyRight {
+  padding-bottom: 10px;
+}
+.social-details p {
+  padding: 10px 0px;
+  text-align: center;
+}
+@media only screen and (max-width: 1164px) {
+  .social-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-details h2 {
+    font-size: 20px;
+  }
+  .social-details p {
+    font-size: 15px;
+    text-align: center;
+  }
+}

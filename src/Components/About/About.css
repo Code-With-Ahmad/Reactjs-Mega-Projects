@@ -1,0 +1,92 @@
+.About-Section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
+  padding: 45px 126px;
+}
+.knife-image {
+  position: relative;
+}
+.G-img {
+  position: absolute;
+  z-index: -1;
+  height: 359px;
+  top: 30%;
+  left: -60%;
+  transform: translate(-50% -50%);
+  -webkit-transform: translate(-50% -50%);
+  -moz-transform: translate(-50% -50%);
+  -ms-transform: translate(-50% -50%);
+  -o-transform: translate(-50% -50%);
+}
+.about {
+  position: relative;
+}
+.about img {
+  position: absolute;
+  top: 115px;
+  right: 124pxpx;
+}
+.History {
+  position: relative;
+}
+.History img {
+  position: absolute;
+  top: 115px;
+  left: 32px;
+}
+.about p,
+.History p {
+  font-size: 15px;
+}
+@media only screen and (max-width: 1335px) {
+  .about h2,
+  .History h2 {
+    font-size: 25px;
+  }
+  .About-Section {
+    gap: 100px;
+  }
+}
+@media only screen and (max-width: 1205px) {
+  .knife-image img {
+    height: 400px;
+  }
+  .G-img {
+    top: 21%;
+    left: -125%;
+    height: 172px !important;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .about h2,
+  .History h2 {
+    font-size: 20px;
+  }
+  .about p,
+  .History p {
+    font-size: 15px;
+  }
+  .about img,
+  .History img {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 563px) {
+  .About-Section {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .about {
+    order: 1;
+  }
+  .knife-image {
+    order: 3;
+  }
+  .History {
+    order: 2;
+  }
+}

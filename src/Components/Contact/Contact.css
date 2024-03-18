@@ -1,0 +1,92 @@
+.contact-section {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.find-img img {
+  width: 400px;
+}
+.find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.openning-hours {
+  color: #dcca87;
+  padding: 26px 0px;
+}
+.news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #dcca87;
+  margin-top: 100px;
+  padding: 20px 40px;
+  background-color: #0c0c0c;
+}
+.news-text {
+  font-size: 25px;
+}
+.input {
+  width: 100%;
+
+  text-align: center;
+}
+.news h2 {
+  font-size: 46px;
+}
+.input input {
+  width: 60%;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: wheat;
+  outline: none;
+  border: 1px solid #dcca87;
+  margin-right: 10px;
+}
+.input button {
+  width: 16%;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1010px) {
+  .find {
+    flex-direction: column;
+    position: relative;
+  }
+  .contact-section {
+    padding: 10px 40px;
+  }
+  .find-text {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 899px) {
+  .news h2 {
+    font-size: 35px;
+  }
+  .input button {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 728px) {
+  .news h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .input button {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .input input {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,52 @@
+.chef-container {
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.chef-img img {
+  width: 400px;
+}
+.quote {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.commas {
+  font-size: 60px;
+}
+.sign {
+  text-align: right;
+}
+.name {
+  font-size: 35px;
+}
+@media only screen and (max-width: 1250px) {
+  .words h2 {
+    font-size: 30px;
+  }
+  .chef-container {
+    flex-direction: column;
+  }
+  .chef-img img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .sign img {
+    width: 200px;
+  }
+  .words h2 {
+    font-size: 23px;
+  }
+  .commas {
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
