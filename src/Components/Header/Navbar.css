@@ -165,7 +165,7 @@ ul li a:hover {
     font-size: 8px;
   }
   .navbar-container {
-    padding: 20px 0px;
+    padding: 20px 10px;
     justify-content: space-between;
   }
 }
