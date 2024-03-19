@@ -4,6 +4,9 @@ import images from "../../constants/images";
 import { awards } from "../../constants/data";
 
 const Award = () => {
+  {
+    document.title = "Awards | LahoriLounge";
+  }
   return (
     <div className="Award-Section">
       <div className="award-text">

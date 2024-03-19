@@ -2,6 +2,9 @@ import React from "react";
 import images from "../../constants/images";
 import "./About.css";
 const About = () => {
+  {
+    document.title = "About | LahoriLounge";
+  }
   return (
     <div className="About-Section">
       <div className="about">

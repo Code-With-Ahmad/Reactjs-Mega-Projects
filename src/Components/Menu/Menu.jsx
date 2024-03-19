@@ -3,6 +3,9 @@ import "./Menu.css";
 import images from "../../constants/images";
 import { Foods, Drinks } from "../../constants/data";
 const Menu = () => {
+  {
+    document.title = "Menu | LahoriLounge";
+  }
   return (
     <div className="menu_Container">
       <p>Menu That Fits You Palatte</p>

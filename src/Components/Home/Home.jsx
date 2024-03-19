@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Header/Navbar";
 import Hero from "./../Hero/Hero";
 import About from "../About/About";
@@ -11,6 +11,9 @@ import Video from "../VideoCompnnet/Video";
 import Gallery from "../Gallery/Gallery";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Home | LahoriLounge";
+  }, []);
   return (
     <div>
       <Hero />

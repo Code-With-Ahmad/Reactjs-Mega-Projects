@@ -2,6 +2,9 @@ import React from "react";
 import images from "../../constants/images";
 import "./Contact.css";
 const Contact = () => {
+  {
+    document.title = "Contact Us | LahoriLounge";
+  }
   return (
     <div className="contact-section">
       <div className="find">

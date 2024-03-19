@@ -25,7 +25,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="about"
+                to="/about"
                 onClick={() => {
                   setDisplay(!display);
                 }}

@@ -6,6 +6,9 @@ import { Outlet } from "react-router-dom";
 import Footer from "./Components/Footer/Footer.jsx";
 
 const App = () => {
+  {
+    document.title = "Home | LahoriLounge";
+  }
   return (
     <div className="container">
       <Navbar />
