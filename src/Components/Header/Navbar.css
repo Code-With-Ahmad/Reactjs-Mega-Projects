@@ -158,23 +158,14 @@ ul li a:hover {
 }
 @media only screen and (max-width: 650px) {
   .logo h1 {
-    font-size: 20px;
-  }
-  .register a,
-  .login a {
     font-size: 12px;
   }
-  .navbar-container {
-    padding: 20px 10px;
-    justify-content: space-between;
-  }
-}
-@media only screen and (max-width: 650px) {
   .register a,
   .login a {
-    font-size: 5px;
+    font-size: 8px;
   }
-  .logo {
-    font-size: 7px;
+  .navbar-container {
+    padding: 20px 0px;
+    justify-content: space-between;
   }
 }
