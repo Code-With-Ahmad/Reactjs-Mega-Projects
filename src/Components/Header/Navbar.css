@@ -80,6 +80,7 @@ ul li a:hover {
   .hamburger {
     display: block;
     cursor: pointer;
+    z-index: 1000;
     font-size: 25px;
     &:hover {
       color: #c8af6c;
