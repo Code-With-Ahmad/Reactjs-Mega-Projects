@@ -97,8 +97,11 @@ h3 {
     justify-content: space-between;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   .menu-heading {
     font-size: 50px;
+  }
+  h3 {
+    font-size: 50px !important;
   }
 }
