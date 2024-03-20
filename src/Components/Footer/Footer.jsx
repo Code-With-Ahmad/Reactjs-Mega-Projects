@@ -7,6 +7,8 @@ import {
   faFacebook,
   faGithub,
   faInstagram,
+  faLinkedin,
+  faLinkedinIn,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -48,6 +50,14 @@ const Footer = () => {
             <a href="https://github.com/Code-With-Ahmad" target="_blank">
               {" "}
               <FontAwesomeIcon icon={faGithub} />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/muhammad-ahmad-539209290/"
+              target="_blank"
+            >
+              {" "}
+              <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
           </div>
         </div>
