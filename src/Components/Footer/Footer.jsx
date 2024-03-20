@@ -28,18 +28,24 @@ const Footer = () => {
           </p>
           <img src={images.spoon} alt="Spoon" />
           <div className="social-icons">
-            <a href="#">
+            <a
+              href="https://www.instagram.com/itx_ahmad_naeem/"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a href="#">
               {" "}
               <FontAwesomeIcon icon={faTwitter} />
             </a>
-            <a href="#">
+            <a
+              href="https://www.facebook.com/profile.php?id=100078106750384"
+              target="_blank"
+            >
               {" "}
               <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="#">
+            <a href="https://github.com/Code-With-Ahmad" target="_blank">
               {" "}
               <FontAwesomeIcon icon={faGithub} />
             </a>
