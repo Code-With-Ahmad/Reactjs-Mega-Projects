@@ -20,6 +20,7 @@ const Footer = () => {
           <p>Daroghawala Lahore , Punjab , Pakistan</p>
           <p>+92 322-1008034</p>
           <p>+92 326-4947489</p>
+          <p>+92 327-4743437</p>
         </div>
         <div className="CompanyDetails">
           <h2>Lahori Lounge</h2>
