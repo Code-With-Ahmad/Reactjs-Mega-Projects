@@ -28,7 +28,7 @@
 .about img {
   position: absolute;
   top: 115px;
-  right: 124pxpx;
+  right: 124px;
 }
 .History {
   position: relative;
@@ -78,6 +78,8 @@
 @media only screen and (max-width: 563px) {
   .About-Section {
     flex-direction: column;
+    justify-content: start;
+    padding: 0px 15px;
     gap: 15px;
   }
   .about {
