@@ -13,7 +13,7 @@
 }
 .left_arrow {
   position: absolute;
-  z-index: 999;
+  z-index: 100;
   bottom: 12px;
   left: 19px;
   font-size: 53px;
@@ -31,6 +31,7 @@
   position: absolute;
   bottom: 12px;
   right: 19px;
+  z-index: 100;
   font-size: 53px;
   background-color: black;
   color: white;
