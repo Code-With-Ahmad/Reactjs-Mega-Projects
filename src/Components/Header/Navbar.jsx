@@ -76,11 +76,11 @@ const Navbar = () => {
       </div>
       <div className="Profile">
         <div className="register">
-          <a href="">SignUp / Register</a>
+          <a href="/">SignUp / Register</a>
         </div>
         <div className="partition"></div>
         <div className="login">
-          <a href="">Book Table</a>
+          <a href="/">Book Table</a>
         </div>
       </div>
       <div className="hamburger">
